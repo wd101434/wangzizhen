@@ -1,0 +1,35 @@
+img{float: left}
+#father{width: 940px;height:270px;overflow: hidden;position: relative;
+    left: 10px; }
+#list{width: 5640px;height: 270px;position: absolute;z-index: 1;}
+#round li{list-style-type:none;
+    width: 16px; height: 16px;border-radius: 50%;
+    background: white;margin: 0 5px; float: left; cursor: pointer;}
+#round .on{background: #ea6f5a}
+#round{overflow: hidden; position: absolute; bottom: 5px; left: 30%;z-index: 2;}
+#left{z-index: 2;
+    color: white;
+    position: absolute;
+    left: 0;
+    top: 108px;
+    font-size:30px;
+    background: rgba(0,0,0,0.4);
+    display: none;
+    cursor: pointer;
+    padding: 12px 20px;
+    margin-left: -6px;
+
+}
+#right{z-index: 2;
+    color: white;
+    position: absolute;right: 0;
+    top: 110px;
+    font-size:30px;
+    background: rgba(0,0,0,0.4);
+    display: none;
+    cursor: pointer;
+    padding: 12px 20px;
+    margin-right: -6px;}
+
+#father:hover #left{display: block;}
+#father:hover #right{display: block;}

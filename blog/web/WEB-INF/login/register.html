@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="../../style/main.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../../js/jquery-3.2.1.min.js">
+    </script>
+    <!--<script type="text/javascript">-->
+        <!--$('#re_que').click(function () {-->
+            <!--var ele=$(this);-->
+            <!--var txt1=$('#re_text1').html();-->
+            <!--var txt2=$('#re_text2').html();-->
+            <!--ele.data("a","txt1");-->
+            <!--ele.data("b","txt2");-->
+
+            <!--var reset=$.data(ele,"a")+$.data(ele,"b");-->
+            <!--ele.find(alert()).append(reset);-->
+         <!--})-->
+
+    <!--</script>-->
+</head>
+<body class="log">
+<form action="../../../php/login/register.php" method="post" >
+<div>
+
+    <div class="logall">
+        <div class="logcenter">
+
+            <input type="text" name="username1" class="ipntext" id="re_text1" autocomplete="off" placeholder="账号"><br>
+            <hr class="loghr" >
+
+            <input type="password" name="password1" class="ipntext" id="re_text2" autocomplete="off" placeholder="密码">
+            <hr class="loghr">
+
+            <input type="password" name="confirm" class="ipntext" placeholder="确认密码" >
+            <hr class="loghr">
+
+            <input type="text" name="nickname" class="ipntext" placeholder="昵称" >
+            <hr class="loghr">
+        </div>
+        <div class="logfoot">
+            <ul class="logbutton">
+                <li><input type="submit" name="Submit" value="注册" class="button"></li>
+                <li><a href="login.html"><input type="button"  value="返回" class="button"></a></li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+</form>
+</body>
+</html>

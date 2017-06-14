@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="3404ac75-dae9-4801-9ac4-0d262ca52a8c" name="apche" url="http://localhost/blog">
+        <fileTransfer port="0" mountedRoot="E:\wamp\www\blog" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>
